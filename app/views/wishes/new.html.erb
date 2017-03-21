@@ -1,0 +1,11 @@
+<%= form_for @wish do |f| %>
+
+  <div class="field">
+    <%= f.label :item, "アイテム" %>
+    <%= f.text_field :item %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "登録する" %>
+  </div>
+<% end %>
